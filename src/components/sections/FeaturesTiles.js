@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'When Is Our Launch?',
+    paragraph: 'On 10/15/21, 9am AEST you will be able to mint the first drop of "Family - Fall 21/22". After connecting to our site with your wallet you will be able to mint an NFT of your preffered color and size for 0.1Ξ. Succesful minters will be prompted with a form to fill in their postage details with orders will be shipping out immediately!'
   };
 
   return (
@@ -55,10 +55,17 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="center-content reveal-from-bottom" />
           <div className={tilesClasses}>
-
-            <div className="tiles-item reveal-from-bottom">
+            <a>
+              <Image
+                className="has-shadow"
+                src={require('./../../assets/images/famHolder.png')}
+                alt="Family Carousel"
+                width={896}
+                height={504} />
+            </a>
+            {/* <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -188,7 +195,7 @@ const FeaturesTiles = ({
                     </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>

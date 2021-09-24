@@ -61,19 +61,23 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+              Family <span className="text-color-primary">Australia</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
-                </p>
+              We’re an Australian luxury clothing brand that’ll be releasing a limited amount of NFTs for each garment release we do. 
+              For those that mints our NFTs, we will be sending the physical garment along with it. 
+              Our NFTs will have exclusive perks in the Metaverse and it's advisable to hold on to your NFT in the long run (See our Game Plan). 
+              For those that miss out on the NFTs and wanna support our community, we will be stocking limited amounts of each garment in our shopify store. 
+              Each garment will have a QR code stitched on, to authenticate each garment is from our brand.                 
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
+                    Mint
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
+                    View Contract
                     </Button>
                 </ButtonGroup>
               </div>
@@ -81,15 +85,15 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://player.vimeo.com/video/174002812"
+              data-video="https://bafybeiba4l3o3whs32rk3j2tzqrnmhcivycw5n7rmaix74voj634joyj6i.ipfs.dweb.link/"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
-                alt="Hero"
+                src={require('./../../assets/images/famThumbnail.png')}
+                alt="Family Crewneck"
                 width={896}
                 height={504} />
             </a>
@@ -98,7 +102,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
+            video="https://bafybeiba4l3o3whs32rk3j2tzqrnmhcivycw5n7rmaix74voj634joyj6i.ipfs.dweb.link/"
             videoTag="iframe" />
         </div>
       </div>
