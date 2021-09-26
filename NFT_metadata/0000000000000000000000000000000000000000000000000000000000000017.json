@@ -2,15 +2,15 @@
     "name": "Family Crewneck NFT",
     "description": "A beautifully 3D rendered, graphical representation of the Family Crewneck. Minters received a physical version of their NFT for every NFT minted. Hodlers will also benefit from future drops and be entitled to store discounts.",
     "external_url": "https://familyaus.io",
-    "image": "ipfs://QmV9x8cSWdQQi6CFjsLKrv64ySAesRaLZWceT1vZ6934CZ",
+    "image": "ipfs://QmZe6eSMCUDsLSh64Bjh9Adt8ZEyENDqgyGdWaFVeuzscr",
     "attributes" : [
         {
             "trait_type" : "Colour",
-            "value": "Olive"
+            "value": "Sand"
         },
         {
             "trait_type" : "Size",
-            "value": "M"
+            "value": "L"
         }
     ] 
 }
