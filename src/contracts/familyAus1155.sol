@@ -71,7 +71,7 @@ contract familyAus1155 is ERC1155, Ownable {
         uint256[] memory _amounts,
         bytes memory _data
     ) public {
-        
+        require(_ids.length == _amounts.length, "ERC1155: ids and amounts length mismatch");
         for (uint i=0; i<_ids.length; i++) {
             uint id = _ids[i];
             uint amount = _amounts[i];
