@@ -6,6 +6,7 @@
     "@openzeppelin/contracts": "^4.3.2",
     "classnames": "^2.3.1",
     "lodash": "^4.17.21",
+    "node-sass": "^4.14.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-ga": "^2.7.0",
@@ -14,9 +15,8 @@
     "web3": "^1.5.3"
   },
   "scripts": {
-    "start": "webpack serve --open --hot",
-    "build": "webpack --mode production",
-    "webpack": "webpack",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,20 +36,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.15.6",
-    "@babel/preset-react": "^7.14.5",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.2.2",
-    "babel-register": "^6.26.0",
-    "css-loader": "^6.3.0",
-    "html-webpack-plugin": "^5.3.2",
-    "node-sass": "^4.14.1",
-    "sass": "^1.42.1",
-    "sass-loader": "^12.1.0",
-    "style-loader": "^3.3.0",
-    "truffle": "^5.4.11",
-    "webpack": "^5.55.0",
-    "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.3.0"
+    "truffle": "^5.4.11"
   }
 }
